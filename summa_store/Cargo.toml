@@ -1,0 +1,8 @@
+[package]
+name = "summa_store"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = {version="0.29.0", features=["bundled"]}
+sqlite-vss = { version = "*", features=["download-libs"] }

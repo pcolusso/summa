@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "summa_store",
+    "summa_cognition",
+    "summa_cli"
+]
